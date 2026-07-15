@@ -257,5 +257,5 @@ Castle Rock, Colorado
 
 ---
 
-*CC BY 4.0 — Attribution to Craig Ellrod / Nebulonium, Inc. / HACKERverse required.*  
+*CC BY 4.0 — Attribution to Craig Ellrod / Nebulonium, Inc. required.*  
 *Proof Economy™ Standards Alliance (PESA) — proofprotocol.io*
