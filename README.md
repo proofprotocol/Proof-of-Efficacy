@@ -15,11 +15,11 @@
 
 Existing AI governance frameworks address whether AI agents acted within authorized boundaries. None of them address whether AI agents actually worked.
 
-This specification defines Proof of Efficacy (ProofEfficacy™) as a formal standard for cryptographically verifiable evidence that an AI agent demonstrated measurable, adversarially-tested effectiveness under real conditions — timestamped before execution, witnessed independently, and sealed against post-hoc fabrication.
+This specification defines Proof of Efficacy (ProofEfficacy™) as a formal standard for cryptographically verifiable evidence that an AI agent demonstrated measurable, adversarially-tested effectiveness under real conditions - timestamped before execution, witnessed independently, and sealed against post-hoc fabrication.
 
-The underlying mechanism is the Proof Protocol™, developed by HACKERverse® in May 2025. HACKERverse® coined both the Proof Economy™ category and the Continuous Adversarial Evaluation™ (CAE) category in May 2025. Gartner released its Adversarial Exposure Validation (AEV) category on March 24, 2026 — ten months later.
+The underlying mechanism is the Proof Protocol™, developed by HACKERverse® in May 2025. HACKERverse® coined both the Proof Economy™ category and the Continuous Adversarial Evaluation™ (CAE) category in May 2025. Gartner released its Adversarial Exposure Validation (AEV) category on March 24, 2026 - ten months later.
 
-The author, Craig Ellrod, brings more than 30 years of offensive security experience to this standard — spanning system and device testing under adversarial conditions, red team operations, and security validation across Cisco, Armor Defense, JupiterOne, and Cequence Security. Craig's work on test environments and test products, including the System Under Test (SUT) methodology, dates back to 2004.
+The author, Craig Ellrod, brings more than 30 years of offensive security experience to this standard - spanning system and device testing under adversarial conditions, red team operations, and security validation across Cisco, Armor Defense, JupiterOne, and Cequence Security. Craig's work on test environments and test products, including the System Under Test (SUT) methodology, dates back to 2004.
 
 ---
 
@@ -126,7 +126,7 @@ A conformant ProofEfficacy™ implementation MAY:
 
 Security practitioners understand packet capture. The Proof Protocol™ five-tier model maps directly to a wire or wireless packet capture session. Each tier is a frame on the wire. The sequence cannot be spoofed because the NIST Randomness Beacon is an external clock that neither the agent operator nor the vendor controls.
 
-The critical distinction from a standard behavioral log: a capture records what happened. Tier 2 proves the intent was declared and externally timestamped before the first frame was captured. A standard compliance log is Tier 2 and Tier 4 only — capture and seal. Without pre-execution commitment, you have a record. With it, you have proof.
+The critical distinction from a standard behavioral log: a capture records what happened. Tier 2 proves the intent was declared and externally timestamped before the first frame was captured. A standard compliance log is Tier 2 and Tier 4 only - capture and seal. Without pre-execution commitment, you have a record. With it, you have proof.
 
 ---
 
@@ -155,7 +155,7 @@ In AI execution time, the interval between agent activation and action completio
 
 Post-hoc behavioral logs are forensic artifacts. They are useful for investigation. They are not proof of protection.
 
-The only architecture that answers the security agent question is pre-execution commitment. The security agent must be provably activated and committed — with a NIST Beacon-anchored timestamp — before the application agent runs. Not after. Before.
+The only architecture that answers the security agent question is pre-execution commitment. The security agent must be provably activated and committed - with a NIST Beacon-anchored timestamp - before the application agent runs. Not after. Before.
 
 This is the Proof Protocol™ Committed tier. It is the mechanism no other framework has implemented.
 
@@ -178,7 +178,7 @@ The emerging landscape of verifiable AI standards addresses whether AI agents ac
 
 Control without efficacy is a well-documented liability, not a verified capability.
 
-ProofEfficacy™ adds the adversarial validation layer that control frameworks cannot provide by design — they are authorization architectures, not adversarial execution frameworks.
+ProofEfficacy™ adds the adversarial validation layer that control frameworks cannot provide by design - they are authorization architectures, not adversarial execution frameworks.
 
 ### 5.2 Agentic AI Runtime Governance
 
@@ -188,7 +188,7 @@ Runtime governance frameworks define authorization and receipt mechanisms for ag
 
 Gartner's AEV category, released March 24, 2026, consolidates Breach and Attack Simulation and automated penetration testing into a single market category. AEV is episodic, scheduled, and bounded by a start and an end. It is not continuous.
 
-HACKERverse® coined the Continuous Adversarial Evaluation™ (CAE) category in May 2025 — ten months before Gartner released AEV. CAE means always on. Always running. No start, no stop, no gap. The security agent evaluates every action the application agent takes in real time, with pre-execution commitment anchoring each evaluation to the NIST Randomness Beacon before the action occurs.
+HACKERverse® coined the Continuous Adversarial Evaluation™ (CAE) category in May 2025 - ten months before Gartner released AEV. CAE means always on. Always running. No start, no stop, no gap. The security agent evaluates every action the application agent takes in real time, with pre-execution commitment anchoring each evaluation to the NIST Randomness Beacon before the action occurs.
 
 The proof gap in AEV compounds the episodic problem. AEV validates that an attack can succeed or fail during a test window. It does not prove that the security agent governing the application agent was active and committed before the attempt. Under the Proof Protocol™, the security agent's pre-execution commitment is anchored before every application agent action, continuously, with no gaps.
 
@@ -204,7 +204,7 @@ Zero-knowledge proofs demonstrate that a computation was performed correctly wit
 
 This specification is published under CC BY 4.0. Any party may implement, reference, or build upon it without restriction, provided attribution is given to Craig Ellrod / Nebulonium, Inc..
 
-Certification against this standard — the right to carry the ProofStamp™ mark — is a separate function retained by HACKERverse® as the independent test lab. The standard is open. The stamp is not.
+Certification against this standard - the right to carry the ProofStamp™ mark - is a separate function retained by HACKERverse® as the independent test lab. The standard is open. The stamp is not.
 
 ### 6.2 ProofStamp™
 
@@ -212,7 +212,7 @@ ProofStamp™ is the HACKERverse® certification mark issued upon successful com
 
 ### 6.3 ProofRegister™
 
-ProofRegister™ is the public registry of sealed Proof Protocol™ records. Publicly queryable at ProofRegister™.com. Contains only cryptographic hash values — no raw evidence is exposed publicly.
+ProofRegister™ is the public registry of sealed Proof Protocol™ records. Publicly queryable at ProofRegister™.com. Contains only cryptographic hash values - no raw evidence is exposed publicly.
 
 ### 6.4 ProofVault™
 
@@ -243,7 +243,7 @@ Working group inquiries: benchmark@proofbenchmark.com
 | 2004–2025 | Red team engagements, penetration testing, and adversarial security validation at Cisco, Armor Defense, JupiterOne, and Cequence Security |
 | May 2025 | HACKERverse® formalizes the Proof Economy™ category. Proof Protocol™ named and architected. CAE category coined. |
 | Feb 28, 2026 | Earliest provisional patent application filed (HV-PROV-001). Six total provisionals (HV-PROV-001 through HV-PROV-006). Conversion deadlines February–March 2027. |
-| March 24, 2026 | Gartner releases AEV category — ten months after HACKERverse® coined Proof Economy™ and CAE |
+| March 24, 2026 | Gartner releases AEV category - ten months after HACKERverse® coined Proof Economy™ and CAE |
 | May 26, 2026 | HACKERverse® registered in DoD CDAO Tradewinds at TRL 7, awardable |
 | July 14, 2026 | This specification published as PP-SPEC-014 |
 
@@ -257,5 +257,5 @@ Castle Rock, Colorado
 
 ---
 
-*CC BY 4.0 — Attribution to Craig Ellrod / Nebulonium, Inc. required.*  
-*Proof Economy™ Standards Alliance (PESA) — proofprotocol.io*
+*CC BY 4.0 - Attribution to Craig Ellrod / Nebulonium, Inc. required.*  
+*Proof Economy™ Standards Alliance (PESA) - proofprotocol.io*
