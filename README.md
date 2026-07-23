@@ -1,13 +1,13 @@
-> **Zenodo DOI:** [10.5281/zenodo.21379780](https://doi.org/10.5281/zenodo.21379780) — Published 2026-07-15
+> **Zenodo DOI:** [10.5281/zenodo.21379780](https://doi.org/10.5281/zenodo.21379780) - Published 2026-07-15
 
 # PROOF OF EFFICACY
 ### A Standards Proposal for Adversarially-Verified AI Agent Behavior
 
-**Version:** 0.1 — Public Draft  
+**Version:** 0.1 - Public Draft  
 **Issued by:** HACKERverse® / Nebulonium, Inc.  
 **Author:** Craig Ellrod, Founder & CEO  
 **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
-**Categories coined:** May 2025 (Proof Economy, Continuous Adversarial Evaluation)  
+**Categories first published:** September 2025 (Continuous Autonomous Evaluation, 18 September; Proof Economy, 25 September). Independently archived by the Internet Archive, October 2025.  
 
 ---
 
@@ -17,7 +17,7 @@ Existing AI governance frameworks - including the Proof of Control Initiative (P
 
 This document proposes Proof of Efficacy (PoE) as a formal standard for cryptographically verifiable evidence that an AI agent demonstrated measurable, adversarially-tested effectiveness under real conditions - timestamped before execution, witnessed independently, and sealed against post-hoc fabrication.
 
-The underlying mechanism is the Defensible Knowledge Proof (DKP) protocol, developed by HACKERverse® in May 2025. HACKERverse® coined both the Proof Economy category and the Continuous Adversarial Evaluation (CAE) category in May 2025. Gartner released its Adversarial Exposure Validation (AEV) category in March 24, 2026 - ten months later. This proposal is offered as an open standard under CC BY 4.0. Certification authority is retained by HACKERverse® under the ProofStamp mark.
+The underlying mechanism is the Defensible Knowledge Proof (DKP) protocol. HACKERverse® first published the Continuous Autonomous Evaluation (CAE) category on 18 September 2025 and the Proof Economy category on 25 September 2025. Both were captured by the Internet Archive on 6 October 2025 and are independently verifiable at the URIs cited in Section 8. Gartner released its Adversarial Exposure Validation (AEV) category on 24 March 2026 - six months later. This proposal is offered as an open standard under CC BY 4.0. Certification authority is retained by HACKERverse® under the ProofStamp mark.
 
 The author, Craig Ellrod, brings more than 30 years of offensive security experience to this standard - spanning system and device testing under adversarial conditions, red team operations, and security validation across Cisco, Armor Defense, JupiterOne, and Cequence Security. Craig's work on test environments and test products, including the System Under Test (SUT) methodology, dates back to 2004 and was documented in his book Technical Marketing. DKP is the formalization of that practice into a cryptographically verifiable, independently witnessed protocol.
 
@@ -54,7 +54,7 @@ The following terms are defined for the purposes of this standard:
 
 | Term | Definition |
 |------|------------|
-| Continuous Adversarial Evaluation (CAE) | A category coined by HACKERverse® in May 2025 describing always-on, always-running adversarial evaluation of AI agent behavior. CAE has no test cycles, no scheduled windows, and no gaps in observation. Every agent action is evaluated in real time with pre-execution commitment. CAE is architecturally distinct from AEV, which is episodic and bounded by test start and end points. |
+| Continuous Adversarial Evaluation (CAE) | A category first published by HACKERverse® on 18 September 2025 as Continuous Autonomous Evaluation and refined to Continuous Adversarial Evaluation in the 2026 specifications, as the adversarial condition requirement became explicit. Describes always-on, always-running adversarial evaluation of AI agent behavior. CAE has no test cycles, no scheduled windows, and no gaps in observation. Every agent action is evaluated in real time with pre-execution commitment. CAE is architecturally distinct from AEV, which is episodic and bounded by test start and end points. |
 | Efficacy | The measurable degree to which an AI agent achieved its intended outcome under adversarial conditions. |
 | Adversarial Condition | An environment in which an opposing actor, system, or force is actively attempting to prevent, subvert, or exploit the agent's action. |
 | Pre-Execution Commitment | A cryptographic hash of the agent's intended action, submitted to a publicly verifiable randomness beacon before execution begins. This establishes temporal proof that the claim was made before the outcome was known. |
@@ -126,7 +126,6 @@ Security practitioners understand packet capture. The DKP five-tier model maps d
 
 > *Note: Sequence markers T0 through T4 are relative indicators of ordering only. They imply no specific timing, duration, or interval between tiers.*
 
-
 The critical distinction from a standard behavioral log: a wire or wireless capture records what happened on the medium. DKP T1 proves the intent was declared and externally timestamped before the first frame was captured. A standard compliance log is T2 and T4 only - capture and seal. Without T1, you have a record. With T1, you have proof. A cryptographic hash only seals the misread.
 
 ## 4. Agent Class Taxonomy and the Dual Proof Requirement
@@ -183,9 +182,6 @@ POCI defines three conformance levels:
 - Level 1: Self-Declared - the organization documents its cryptographic evidence capabilities and publishes a PoC Conformance Statement.
 - Level 2: Third-Party Assessed - an independent qualified assessor validates that the cryptographic mechanisms work as claimed.
 - Level 3: Continuously Monitored - cryptographic evidence is generated and validated on an ongoing basis, not assessed at a point in time.
-POCI's Level 3 - Continuously Monitored - is architecturally identical to what HACKERverse® defined as Continuous Adversarial Evaluation (CAE) in May 2025. CAE was coined and published by HACKERverse® ten months before POCI's Working Draft 0.1 was announced for release at Black Hat in August 2026. The concept of always-on, continuously generated cryptographic evidence of agent behavior originates with HACKERverse®. POCI's Level 3 conformance tier reflects that concept without attribution.
-
-HACKERverse® asserts prior art on the continuously monitored, always-on cryptographic validation model. The May 2025 CAE category coinage and the DKP protocol development are the documented origin of this architectural approach.
 
 ### 5.2 CSA AARM (Autonomous Action Runtime Management)
 
@@ -199,11 +195,11 @@ Gartner's AEV category, released March 24, 2026, consolidates Breach and Attack 
 
 Gartner uses the word 'continuous' in the AEV definition to mean continuously available, not continuously running. There is a meaningful architectural difference between those two claims. An AEV tool that runs on a schedule, completes a validation cycle, and stops is not observing the environment between cycles. The gap between tests is unobserved. Adversarial conditions that arise and resolve in that gap leave no record.
 
-HACKERverse® coined the Continuous Adversarial Evaluation (CAE) category in May 2025 - ten months before Gartner released AEV. CAE means always on. Always running. No start, no stop, no gap. The security agent evaluates every action the application agent takes in real time, with pre-execution commitment anchoring each evaluation to the NIST Randomness Beacon before the action occurs. There is no window between tests because there are no tests. There is only continuous runtime observation.
+HACKERverse® first published the CAE category on 18 September 2025 - six months before Gartner released AEV, and independently archived three weeks after publication. CAE means always on. Always running. No start, no stop, no gap. The security agent evaluates every action the application agent takes in real time, with pre-execution commitment anchoring each evaluation to the NIST Randomness Beacon before the action occurs. There is no window between tests because there are no tests. There is only continuous runtime observation.
 
 The proof gap in AEV compounds the episodic problem. AEV validates that an attack can succeed or fail during a test window. It does not prove that the security agent governing the application agent was active and committed before the attempt. A clean AEV result proves nothing was exploited during the test. It does not prove the security agent worked. Under DKP, the security agent's pre-execution commitment is anchored before every application agent action, continuously, with no gaps. That is the distinction between a test and a proof.
 
-The Proof Economy category, which DKP implements, was coined by HACKERverse® in May 2025, ten months prior to Gartner's March 24, 2026 AEV release.
+The Proof Economy category, which DKP implements, was first published by HACKERverse® on 25 September 2025, six months prior to Gartner's 24 March 2026 AEV release.
 
 ### 5.4 Zero-Knowledge Proofs
 
@@ -253,7 +249,11 @@ The following timeline establishes proof of the Proof Economy category and the D
 
 - 2004: Craig Ellrod begins offensive security practice grounded in adversarial validation of systems and devices under test (SUT/DUT). This constitutes the foundational prior art from which DKP emerges.
 - 2004–2025: Twenty-plus years of red team engagements, penetration testing, and adversarial security validation at Cisco, Armor Defense, JupiterOne, and Cequence Security. Each engagement produces informal efficacy proof. DKP formalizes this practice.
-- May 2025: HACKERverse® formalizes the Proof Economy category. The DKP protocol is named and architected as a cryptographic standard for adversarially-verified AI agent behavior.
+- 18 September 2025: Continuous Autonomous Evaluation (CAE) published as a category definition. Archived by the Internet Archive 6 October 2025: https://web.archive.org/web/20251006175845/https://blog.hackerverse.ai/2025/09/18/continuous-autonomous-evaluation-cae-the-next-category-in-cybersecurity/
+- 25 September 2025: Proof Economy published as a category definition. Archived 6 October 2025: https://web.archive.org/web/20251006161031/https://blog.hackerverse.ai/2025/09/25/the-proof-economy-proof-is-the-new-currency-hackerverse-at-techcrunch-disrupt/
+- 9 October 2025: The CAE Manifesto published. Archived 9 November 2025: https://web.archive.org/web/20251109060700/https://blog.hackerverse.ai/2025/10/09/the-cae-manifesto-welcome-to-the-proof-economy/
+- 23 October 2025: The Proof Economy Manifesto published. Archived 9 November 2025: https://web.archive.org/web/20251109065612/https://blog.hackerverse.ai/2025/10/23/the-proof-economy-manifesto/
+- 1 January 2026: First independent temporal anchor recorded against NIST Randomness Beacon pulse 1595005, verifiable at https://beacon.nist.gov/beacon/2.0/chain/2/pulse/1595005
 - February 28, 2026: Earliest provisional patent application filed (HV-PROV-001). Six total provisional applications filed (HV-PROV-001 through HV-PROV-006), covering the DKP Protocol, Proof Exchange, AgentTwin, and Proof Correlation ID (PCID) architecture. Patent conversion deadlines: February–March 2027.
 - March 24, 2026: Gartner releases the Adversarial Exposure Validation (AEV) category - ten months after HACKERverse® coined the Proof Economy and Continuous Adversarial Evaluation (CAE) categories.
 - 2025–2026: HACKERverse® holds CSA AARM working group seat and contributes specification language including witness class definitions, chain of custody standards, and hash-chaining requirements.
